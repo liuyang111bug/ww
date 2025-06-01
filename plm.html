@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <title>给裴兰梅道歉</title>
+  <style>
+    body {
+      background: linear-gradient(135deg, #fda085 0%, #f6d365 100%);
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-family: 'Segoe UI', '微软雅黑', Arial, sans-serif;
+      margin: 0;
+    }
+    .love-letter {
+      background: rgba(255,255,255,0.95);
+      padding: 40px 50px;
+      border-radius: 16px;
+      box-shadow: 0 10px 32px rgba(255, 99, 132, 0.15);
+      text-align: center;
+      max-width: 420px;
+      transition: box-shadow 0.3s;
+    }
+    .love-letter:hover {
+      box-shadow: 0 20px 48px rgba(255, 99, 132, 0.25);
+    }
+    h1 {
+      color: #ff496a;
+      margin-bottom: 15px;
+      font-size: 2.5rem;
+      letter-spacing: 2px;
+      font-weight: bold;
+    }
+    p {
+      color: #333;
+      font-size: 1.2rem;
+      line-height: 1.8;
+      margin-bottom: 20px;
+    }
+    .heart {
+      font-size: 3rem;
+      color: #ff496a;
+      animation: beat 0.8s infinite alternate;
+      display: inline-block;
+      margin-bottom: 15px;
+    }
+    @keyframes beat {
+      to { transform: scale(1.2); }
+    }
+    .signature {
+      color: #888;
+      margin-top: 25px;
+      font-size: 1rem;
+      text-align: right;
+    }
+  </style>
+</head>
+<body>
+  <div class="love-letter">
+    <div class="heart">❤️</div>
+    <h1>道歉</h1>
+    <p>
+     对不起，我意识到刚才的话冒犯到你了，让你感觉不舒服，这完全是我的错。我以后绝不会再这样了
+    </p>
+    <div class="signature">
+      —— 刘杨
+    </div>
+  </div>
+</body>
+</html>
